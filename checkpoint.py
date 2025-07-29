@@ -7,7 +7,7 @@ import string
 from nltk.stem import WordNetLemmatizer
 
 
-with open(r"C:\Users\batta\Desktop\DL_NN_checkpoint\ww2.txt") as file:
+with open(r"ww2.txt") as file:
     text = file.read().replace('\n', " ")
 
 sentences = sent_tokenize(text)
